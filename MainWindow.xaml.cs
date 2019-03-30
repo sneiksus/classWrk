@@ -27,7 +27,22 @@ namespace WpfApp1
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-                       if(textb)
+                if(!string.IsNullOrEmpty(digits.Text)&&Convert.ToInt32(digits.Text)>=1&& Convert.ToInt32(digits.Text) <= 20)
+            {
+                Random rand = new Random();
+                 ResNum.Content = rand.Next(1, 20);
+                if(digits.Text==Convert.ToString(ResNum.Content))
+                {
+                    result.Content = "You are WIN !!!";
+                }
+                else
+                {
+                    result.Content = "You are LOH !!!";
+                }
+
+            }
+                else
+                result.Content = "Input Error";
         }
     }
 }

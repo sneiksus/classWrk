@@ -8,7 +8,7 @@
         Title="MainWindow" Height="355.943" Width="530.737">
     <Grid>
         <Button Content="GO" HorizontalAlignment="Left" Margin="315,83,0,0" VerticalAlignment="Top" Width="88" Height="38" Click="Button_Click"/>
-        <TextBox x:Name="digits" HorizontalAlignment="Left" Height="23" Margin="142,93,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="74"/>
+        <TextBox x:Name="digits" HorizontalAlignment="Left" Height="23" Margin="142,93,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="74"/>
         <Label Content="Result" x:Name="ResNum" HorizontalAlignment="Left" Margin="220,203,0,0" VerticalAlignment="Top" Height="37" Width="72" FontSize="18" FontWeight="Bold"/>
         <Label x:Name="result" HorizontalAlignment="Left" Margin="163,247,0,0" VerticalAlignment="Top" Height="37" Width="170" FontSize="17" FontWeight="Bold"/>
         <Label Content="    1-20" HorizontalAlignment="Left" Margin="142,62,0,0" VerticalAlignment="Top" Width="72"/>
